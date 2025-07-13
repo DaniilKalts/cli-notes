@@ -60,3 +60,9 @@ List how many commits were made by each contributor.
 ```
 git shortlog -s -n
 ```
+
+List commits that added or removed a specific string
+
+```
+git log -S'<exact text>' -p -- [path/to/file]
+```
