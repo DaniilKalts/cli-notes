@@ -66,3 +66,11 @@ List commits that added or removed a specific string
 ```
 git log -S'<exact text>' -p -- [path/to/file]
 ```
+
+List commits that belong only to a specific branch
+
+```
+git log [branch] ^[exclude_branch]
+or
+git log [branch]..[exclude_branch]
+```
